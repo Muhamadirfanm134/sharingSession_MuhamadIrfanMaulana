@@ -1,0 +1,49 @@
+{
+  "name": "sharing-session-irfan",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@reduxjs/toolkit": "^1.8.5",
+    "antd": "^4.23.4",
+    "axios": "^1.1.2",
+    "bootstrap": "^5.2.2",
+    "boxicons": "^2.1.4",
+    "query-string": "^7.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.55.0",
+    "stein-expedite": "^0.1.0",
+    "stein-js-client": "^0.0.2",
+    "sweetalert2": "^11.4.38",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false  react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+.cardTitle {
+  color: "#333333";
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.headerCard {
+  background-image: url("../../assets/images/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  border-bottom: none;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 7px 25px 0px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  padding: 24px 24px 20px;
+  transition: transform 500ms;
+}
+
+.headerCardTwo {
+  background-image: url("../../assets/images/background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 7px 25px 0px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  padding: 24px 24px 20px;
+  transition: transform 500ms;
+}
+
+.plainCard {
+  background-color: var(--N0, #ffffff);
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 7px 25px 0px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  padding: 24px 24px 20px;
+  transition: transform 500ms;
+
+  &:hover {
+    transform: translateY(-7px);
+    box-shadow: rgb(0 0 0 / 15%) 0px 7px 25px 0px;
+  }
+}
+
+.cardFilter {
+  background-color: var(--N0, #ffffff);
+  border-top: none;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 7px 25px 0px;
+  margin-bottom: 25px;
+  margin-top: -25px;
+  padding: 24px 24px 20px;
+  transition: transform 500ms;
+}
+
+.cardComponent {
+  background-color: var(--N0, #ffffff);
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 7px 25px 0px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  padding: 24px 24px 20px;
+  transition: transform 500ms;
+}

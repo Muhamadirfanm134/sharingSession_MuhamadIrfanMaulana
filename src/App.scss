@@ -1,0 +1,111 @@
+@import "antd/dist/antd.min.css";
+
+.layoutContainer {
+  background-image: linear-gradient(to top, #fff, #dbf9f18c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.contentContainer {
+  padding: 20px 200px;
+  min-height: 100vh;
+}
+
+.ant-spin-dot-item {
+  background-color: #4dc7a0 !important;
+}
+
+.ant-modal-mask {
+  background-color: #aaaaaa77;
+  backdrop-filter: blur(5px);
+}
+
+.ant-modal-content,
+.ant-modal-header {
+  border-radius: 20px !important;
+}
+
+.ant-pagination:hover,
+.ant-pagination-item,
+.ant-pagination-item a {
+  border-radius: 8px !important;
+  border-color: #6dcf73 !important;
+  color: #6dcf73 !important;
+}
+
+.ant-pagination-item-active a {
+  border-radius: 8px !important;
+  border-color: #333333 !important;
+  color: #333333 !important;
+}
+
+.ant-pagination-prev,
+.ant-pagination-next {
+  border-radius: 8px !important;
+  border-color: #6dcf73 !important;
+  color: #6dcf73 !important;
+}
+
+.ant-pagination-prev:hover .ant-pagination-item-link {
+  border-radius: 8px !important;
+  border-color: #6dcf73 !important;
+  color: #6dcf73 !important;
+}
+
+.ant-pagination-next:hover .ant-pagination-item-link {
+  border-radius: 8px !important;
+  border-color: #6dcf73 !important;
+  color: #6dcf73 !important;
+}
+
+.ant-input,
+.ant-input-affix-wrapper,
+.ant-input-password,
+.ant-select-selector,
+.ant-picker,
+.ant-input-number {
+  border-color: #6dcf73 !important;
+  border-radius: 8px !important;
+}
+
+.ant-input:hover,
+.ant-input-affix-wrapper:hover,
+.ant-input-password:hover,
+.ant-select-selector:hover,
+.ant-picker:hover,
+.ant-input-number:hover {
+  border-color: #6dcf73 !important;
+  outline: 0 !important;
+  -webkit-box-shadow: 0 0 0 2px #19942139 !important;
+  box-shadow: 0 0 0 2px #19942139 !important;
+}
+
+.ant-input:focus,
+.ant-input-password:focus,
+.ant-select-selector:focus,
+.ant-picker:focus,
+.ant-input-number:focus {
+  border-color: #6dcf73 !important;
+  outline: 0 !important;
+  -webkit-box-shadow: 0 0 0 2px #6dcf744a !important;
+  box-shadow: 0 0 0 2px #6dcf744a !important;
+}
+
+.swal2-close:focus {
+  box-shadow: none !important;
+}
+
+@media screen and (max-width: 992px) {
+  .contentContainer {
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contentContainer {
+    padding: 20px 20px;
+  }
+}
