@@ -1,6 +1,6 @@
 TODO list 17/02/2023:
 [x] Install NVM
-[x] Belajar Git dan Github
-[ ] Watch Git and Github video at alta.id
-[ ] Finish pre-test at alta.id
+[ ] Belajar Git dan Github
+[ ] Watch Git and Gitlab video at alta.id
+[x] Finish pre-test at alta.id
 [x] Watching movies
