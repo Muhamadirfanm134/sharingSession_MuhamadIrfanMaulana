@@ -1,7 +1,8 @@
 TODO list 17/02/2023:
 [x] Having Breakfast
 
-[ ] Belajar Git dan Github
-[ ] Watch Git and Gitlab video at alta.id
+[x] Wash the dishes
 [x] Do Laundry
-[x] Watching movies
+[x] Writing blog
+[ ] Watching Movies
+[ ] Read Comics
